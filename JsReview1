@@ -10,3 +10,76 @@ const name = 'MIKE';
 //alert()경고창
 //prompt   입력 후 alert() 
 //
+
+//형변환 
+
+const str = 'abc'
+
+console.log(Number(str)) //Nan
+
+const num = '1234'
+console.log(Number(num))
+
+//boolean 
+//false 
+//숫자 0 , 빈문자열 '' ,  null , undefined , Nan
+//이 외 모두 True
+
+console.log(Boolean(Number('dd'+1))) // false
+console.log(Boolean(0))
+
+//Number(Null) == 0
+//Number(undefined) == Nan
+
+//Number(0) == false
+//Number('0')==true
+
+//Number('') false
+//Number('  ') true
+
+
+//거듭제곱 
+
+const x =2 ; 
+console.log(x **3) //2의3승
+
+
+//논리연사자 
+//AND && , OR || , NOT ! 
+
+const name1 = 'Dohn';
+
+if(typeof(name1) =="string"){
+    console.log('문자열')
+    if(name1.startsWith('J')){
+        console.log('J씨')
+    }
+    else{
+        console.log('나머지')
+    }
+}
+
+
+//반복문 
+//FOR
+
+for(let i =1; i<=10; i++){
+    console.log(i)
+}
+
+
+//switch문 
+
+const fruit = '포도'
+
+switch(fruit){
+case '사과' : console.log('사과')
+break;
+case '바나나' : console.log('바나나')
+break;
+case '포도' : console.log('포도')
+break;
+case '청포도' : console.log('청포도')
+break;
+
+}
