@@ -1,0 +1,12 @@
+//문자열 결합 , 심볼 
+const name = 'MIKE';
+ const a ='나는';
+ const b='입니다';
+
+ console.log(`${a} ${name} ${b}`);
+
+//alert prompt confirm
+
+//alert()경고창
+//prompt   입력 후 alert() 
+//
